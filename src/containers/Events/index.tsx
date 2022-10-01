@@ -42,7 +42,7 @@ const Events: React.FC<Props> = () => {
         <div className="events_container__content__details">
           <div className="events_container__content__details__row">
             <div className="events_container__content__details__row__icon">
-              <FiCalendar />
+              <FiCalendar className="icon" />
             </div>
             <div className="events_container__content__details__row__data">
               <div className="events_container__content__details__row__data__main">
@@ -57,13 +57,13 @@ const Events: React.FC<Props> = () => {
               </div>
             </div>
             <div className="events_container__content__details__row__icon_right">
-              <FiChevronRight />
+              <FiChevronRight className="icon-right" />
             </div>
           </div>
 
           <div className="events_container__content__details__row">
             <div className="events_container__content__details__row__icon">
-              <FiMapPin />
+              <FiMapPin className="icon" />
             </div>
             <div className="events_container__content__details__row__data">
               <div className="events_container__content__details__row__data__main">
@@ -77,7 +77,7 @@ const Events: React.FC<Props> = () => {
             </div>
 
             <div className="events_container__content__details__row__icon_right">
-              <FiChevronRight />
+              <FiChevronRight className="icon-right" />
             </div>
           </div>
         </div>
